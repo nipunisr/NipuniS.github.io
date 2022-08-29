@@ -1,0 +1,106 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(150, 142, 149);
+}
+
+.active {
+  background-color: #a368a5;
+}
+.container{
+  width:100%;
+  height: 100;
+  background-image: url(https://images-cdn.welcomesoftware.com/Zz0zZTliMjQ4MzhlNGExMWViYmJiMjFiZTI2ZWNmN2MzZA==);
+  background-size: cover;
+  padding-left: 5%;
+  padding-right: 5%;
+  box-sizing:border-box;
+  position: absolute;
+  background-attachment: fixed;
+}
+.navbar{
+  width: 100%;
+  height: 15vh;
+  margin:auto;
+  display:flex;
+  align-items:center;
+}
+.logo{
+  width:100px;
+  height:auto
+  cursor: pointer;
+  padding-top: 40px;
+}
+nav{
+  flex:1;
+  padding-left: 40px;
+}
+.content p{
+  font-size:60px;
+  font-weight: 100;
+  margin-top: 24px;
+  margin-bottom: 15px;
+  color:#333;
+}
+div h1{
+  font-size:60px;
+  font-weight: 100;
+  color:rgba(94, 59, 59, 0.633);
+  margin: 5px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.content{
+  margin-left: 5%;
+  margin-top: 10%;
+}
+.feature{
+  height: 60%;
+  width: 30%;
+  position: absolute;
+  bottom: 0;
+  right: 50px;
+  top:120px
+}
+.social_links{
+  transform: rotate(-90deg);
+  position: absolute;
+  left:-80px;
+  bottom:120px;
+  padding-left: 20px;
+}
+.social_links a{
+  text-decoration: none;
+  color:#6a7199;
+  padding-right: 20px;
+  font-size: 14px;
+}
+#para{
+  font-size:25px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-style: italic;
+
+}
+#para2{
+  font-size: 25px;
+  color:#49444b;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: italic;
+}
